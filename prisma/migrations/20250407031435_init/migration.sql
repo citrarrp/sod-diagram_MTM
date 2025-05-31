@@ -11,15 +11,6 @@ CREATE TABLE `soddiagram` (
 ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
 -- CreateTable
-CREATE TABLE `diagramsod` (
-    `id` INTEGER NOT NULL AUTO_INCREMENT,
-    `processName` VARCHAR(250) NULL,
-    `kode` VARCHAR(250) NULL,
-
-    PRIMARY KEY (`id`)
-) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-
--- CreateTable
 CREATE TABLE `istirahat` (
     `id` INTEGER NOT NULL AUTO_INCREMENT,
     `shift_id` INTEGER NOT NULL,
